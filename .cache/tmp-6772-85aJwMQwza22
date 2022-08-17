@@ -1,0 +1,5 @@
+
+    const cmd = require("C:/Users/brigh/Desktop/Work/240-420/gatsby.js/node_modules/gatsby/dist/commands/develop-process.js");
+    const args = {"_":["develop"],"verbose":false,"no-color":false,"no-colors":false,"noColors":false,"noColor":false,"json":false,"H":"localhost","host":"localhost","p":"8000","port":8000,"c":"","cert-file":"","certFile":"","k":"","key-file":"","keyFile":"","ca-file":"","caFile":"","graphql-tracing":false,"graphqlTracing":false,"$0":"gatsby","directory":"C:\\Users\\brigh\\Desktop\\Work\\240-420\\gatsby.js","browserslist":[">0.25%","not dead"],"sitePackageJson":{"homepage":"http://toothza666.github.io/gatsby","scripts":{"dev":"gatsby develop","build":"gatsby build","deploy":"gh-pages -d public"},"dependencies":{"@directus/gatsby-source-directus":"^9.14.1","bulma":"^0.9.4","react":"^18.2.0","react-dom":"^18.2.0","yarn":"^1.22.19"},"devDependencies":{"gatsby":"^4.20.0","gatsby-source-directus":"^0.0.44","gatsby-source-filesystem":"^4.20.0","gatsby-transformer-remark":"^5.20.0","gh":"^2.8.9","gh-pages":"^4.0.0"}},"report":{"errorMap":{}},"useYarn":true,"proxyPort":8000,"debugInfo":null};
+    cmd(args);
+  

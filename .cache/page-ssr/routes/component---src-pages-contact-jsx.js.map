@@ -1,0 +1,1 @@
+{"version":3,"file":"component---src-pages-contact-jsx.js","mappings":";;;;;;;;;;;;;;;;;AAAA;AAEA,6BAAe,sCAAU;EACrB,oBAAO,uIACH,kFADG,CAAP;AAGH","sources":["webpack:///./src/pages/contact.jsx"],"sourcesContent":["import React from 'react'\r\n\r\nexport default function(){\r\n    return <>\r\n        <h1> Contact</h1>\r\n    </>\r\n}"],"names":["React"],"sourceRoot":""}

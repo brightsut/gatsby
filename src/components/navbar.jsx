@@ -3,10 +3,10 @@ import { Link } from 'gatsby'
 
 export default function(){
     return <>
-        <Link to="/"> Home </Link>
+        <Link to="/"> student </Link>
         {'|'}
-        <Link to="/contact"> contact </Link>
+        <Link to="/subject"> subject </Link>
         {'|'}
-        <Link to="/about"> about </Link>
+        <Link to="/table"> table </Link> 
     </>
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import {graphql } from 'gatsby'
+import {graphql  } from 'gatsby'
 //import {graphql ,// Link } from 'gatsby'
  
 const imageLink = 'http://localhost:8055/assets/'
@@ -8,7 +8,7 @@ export default function ({data: {directus} }) {
     
 
     return <>
-        <h1 className='title'> Member </h1>
+        <h1 className='title'> Student </h1>
          {directus.students.map(( student )=> (
 
 
