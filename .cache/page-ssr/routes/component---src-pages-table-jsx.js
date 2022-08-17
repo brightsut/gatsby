@@ -23,7 +23,11 @@ __webpack_require__.r(__webpack_exports__);
 }) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
     className: "title"
-  }, " table subject "), directus.subjects.map(subject => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, "Subject ID: ", subject.id_subject, "  "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, "Subject name : ", subject.subject_name, "  "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, "Teacher: Dr. ", subject.teacher), subject.time.map(times => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, " table subject "), directus.subjects.map(subject => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, "Subject ID: ", subject.id_subject, "  "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, "Subject name : ", subject.subject_name, "  "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, "Teacher: Dr. ", subject.teacher), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, " sec: ", subject.section, " "), subject.time.map(times => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    style: {
+      marginLeft: '20px'
+    }
+  }, " day : ", times.time_id.day), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     style: {
       marginLeft: '20px'
     }
@@ -31,9 +35,9 @@ __webpack_require__.r(__webpack_exports__);
     style: {
       marginLeft: '20px'
     }
-  }, " end: ", times.time_id.start, " "))))));
+  }, " end: ", times.time_id.end, " "))))));
 }
-const query = "577140268";
+const query = "3706416346";
 
 /***/ })
 

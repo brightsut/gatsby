@@ -34,7 +34,7 @@ export default function ({data: {directus} }) {
 export const query = graphql`
     query{
         directus {
-          subjects {
+          subjects(filter: {id_subject:{_eq:"240-420"}}) {
             id_subject
             subject_name
             teacher
